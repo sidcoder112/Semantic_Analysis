@@ -5,20 +5,17 @@ This project aims to perform sentiment analysis on Twitter data using machine le
 
 ## Project Structure
 - **Data Files**: Contains the training and validation datasets.
-- **Jupyter Notebook**: Contains code for data preprocessing, model training, and evaluation.
-- **Trained Model**: Serialized model file storing the trained sentiment analysis model.
+- **Trained Model**: Serialized model file storing the trained sentiment analysis model. (Already available in the repository)
 - **Web Application**: Python script implementing a Flask web application for sentiment analysis.
 
 ## Functionality
 - **Data Preprocessing**: Preprocesses tweet content to remove URLs, special characters, and convert text to lowercase.
-- **Model Training**: Trains a logistic regression model on preprocessed tweet data using TF-IDF vectorization.
-- **Model Evaluation**: Evaluates the trained model's performance using a classification report.
+- **Model Evaluation**: Evaluates the performance of the pre-trained model using a classification report.
 - **Web Application**: Allows users to input tweet text for real-time sentiment analysis.
 
 ## Usage
-1. **Training the Model**: Run the code in the Jupyter Notebook to preprocess data, train the model, and save it.
-2. **Deploying the Web Application**: Start the Flask web server using the provided Python script and access the application in a web browser.
-3. **Using the Web Application**: Enter tweet text in the input field, submit the form, and view the sentiment analysis result.
+1. **Deploying the Web Application**: Start the Flask web server using the provided Python script and access the application in a web browser.
+2. **Using the Web Application**: Enter tweet text in the input field, submit the form, and view the sentiment analysis result.
 
 ## Dependencies
 - pandas
@@ -26,4 +23,4 @@ This project aims to perform sentiment analysis on Twitter data using machine le
 - Flask
 
 ## Conclusion
-This project demonstrates a simple yet effective approach to sentiment analysis using machine learning techniques. By preprocessing text data and training a logistic regression model, it provides a way to analyze the sentiment of Twitter data in real-time through a web interface.
+This project demonstrates a simple yet effective approach to sentiment analysis using machine learning techniques. By deploying the pre-trained model within the web application, users can easily analyze the sentiment of Twitter data in real-time through a user-friendly interface.
